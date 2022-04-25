@@ -3,6 +3,7 @@
 ## client site
 * react.js
 * react router
+* firebase
 
 ## server site
 * mongoDB
