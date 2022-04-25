@@ -1,0 +1,46 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.header-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-title{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+}
+.header .link-title:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+nav{
+    color: white;
+}
+
+nav button{
+    border: none;
+    background: transparent;
+}
+.user-logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.user{
+    font-size: 17px;
+    font-family: monospace;
+}
